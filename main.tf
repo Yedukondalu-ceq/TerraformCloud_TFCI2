@@ -17,6 +17,7 @@ provider "aws" {
 }
 
 resource "random_pet" "sg" {}
+# Added Access Keys
 
 # data "aws_ami" "ubuntu" {
 #   most_recent = true
