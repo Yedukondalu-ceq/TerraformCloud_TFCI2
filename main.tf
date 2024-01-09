@@ -22,6 +22,7 @@ resource "random_pet" "sg" {}
 # Added Access Keys
 # Unlocked WorkSpace
 # Unlock workspace again
+# check unlock workspace.
 # data "aws_ami" "ubuntu" {
 #   most_recent = true
 
