@@ -14,6 +14,13 @@ terraform {
 
 provider "aws" {
   region = "ap-southeast-2"
+<<<<<<< HEAD
+  access_key = var.AWS_ACCESS_KEY_ID   
+  secret_key = var.AWS_SECRET_ACCESS_KEY
+=======
+#  access_key = var.AWS_ACCESS_KEY_ID   
+#  secret_key = var.AWS_SECRET_ACCESS_KEY
+>>>>>>> 6959e5f057b2b10f9cc3556939003b026381f0ec
 }
 
 resource "random_pet" "sg" {}
