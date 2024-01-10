@@ -79,6 +79,15 @@ resource "aws_s3_bucket" "examples4" {
     Environment = "Dev"
   }
 }
+
+resource "aws_s3_bucket" "examples6" {
+  bucket = "terraformcloud-tfci6"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
 #<<<<<<< HEAD
 
 #=======
