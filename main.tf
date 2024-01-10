@@ -53,7 +53,7 @@ resource "aws_s3_bucket" "examples" {
     Environment = "Dev"
   }
 }
-
+# it is unlocked.
 resource "aws_s3_bucket" "examples4" {
   bucket = "terraformcloud-tfci4"
 
