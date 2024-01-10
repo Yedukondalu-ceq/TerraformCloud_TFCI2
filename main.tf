@@ -53,6 +53,15 @@ resource "aws_s3_bucket" "examples" {
     Environment = "Dev"
   }
 }
+
+resource "aws_s3_bucket" "examples" {
+  bucket = "terraformcloud-tfci4"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
 # resource "aws_instance" "web" {
 #   ami                    = "ami-0c7217cdde317cfec"
 #   instance_type          = "t2.large"
