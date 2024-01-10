@@ -53,6 +53,7 @@ resource "aws_s3_bucket" "examples" {
     Environment = "Dev"
   }
 }
+<<<<<<< HEAD
 # resource "aws_s3_bucket" "examples" {
 #   bucket = "terraformcloud-tfci4"
 
@@ -64,13 +65,21 @@ resource "aws_s3_bucket" "examples" {
 
 resource "aws_s3_bucket" "examples5" {
   bucket = "terraformcloud-tfci5"
+=======
+# it is unlocked.
+resource "aws_s3_bucket" "examples4" {
+  bucket = "terraformcloud-tfci4"
+>>>>>>> bb2abc95677b93cea8b572d30f6dab589abcaa78
 
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb2abc95677b93cea8b572d30f6dab589abcaa78
 # resource "aws_instance" "web" {
 #   ami                    = "ami-0c7217cdde317cfec"
 #   instance_type          = "t2.large"
