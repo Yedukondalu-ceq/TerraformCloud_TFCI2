@@ -88,6 +88,8 @@ resource "aws_s3_bucket" "examples6" {
     Environment = "Dev"
   }
 }
+
+# New changes
 #<<<<<<< HEAD
 
 #=======
