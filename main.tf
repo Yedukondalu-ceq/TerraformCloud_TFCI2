@@ -54,7 +54,7 @@ resource "aws_s3_bucket" "examples" {
   }
 }
 
-resource "aws_s3_bucket" "examples" {
+resource "aws_s3_bucket" "examples4" {
   bucket = "terraformcloud-tfci4"
 
   tags = {
